@@ -1,7 +1,12 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/information_personelle">Information Personnelle</router-link> |
+    <router-link to="/coordonnees">Coordonnées</router-link> |
+    <router-link to="/information_biographique">Information Biographique</router-link> |
+    <router-link to="/information_poste">Information Poste</router-link> |
+    <router-link to="/remuneration">Rémunération</router-link> |
+    <router-link to="/profil_profesionnel">Profil Profesionnel</router-link>
   </nav>
   <router-view/>
 </template>

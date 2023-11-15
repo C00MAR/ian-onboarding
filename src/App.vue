@@ -1,17 +1,19 @@
 <script>
 import HeaderPart from '@/components/Header.vue'
+import ProfilePart from '@/components/Profile.vue'
 export default {
   name: 'App',
   components: {
-    HeaderPart
-  }
+    HeaderPart,
+    ProfilePart
+}
 }
 </script>
 
 <template>
   <nav>
     <HeaderPart></HeaderPart>
-
+    <ProfilePart></ProfilePart>
     <router-link to="/">Home</router-link> |
     <router-link to="/information_personelle">Information Personnelle</router-link> |
     <router-link to="/coordonnees">Coordonnées</router-link> |

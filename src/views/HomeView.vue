@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
+  <div class="infoperso">
     <h1>
-      Bienvenue dans votre espace employé !
+      Information Perso
     </h1>
   </div>
 </template>

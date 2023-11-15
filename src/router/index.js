@@ -1,30 +1,15 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import InfoPersonnelleView from '../views/HomeView.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/information_personelle',
     name: 'Information Personnelle',
-    component: () => import('../views/InfoPersoView.vue')
+    component: InfoPersonnelleView
   },
   {
-    path: '/coordonnees',
-    name: 'Coordonnées',
-    component: () => import('../views/CoordonneesView.vue')
-  },
-  {
-    path: '/information_biographique',
-    name: 'Information Biographique',
-    component: () => import('../views/InformationBiographiqueView.vue')
-  },
-  {
-    path: '/information_poste',
-    name: 'Information Poste',
+    path: '/information_emploi',
+    name: 'Information Emploi',
     component: () => import('../views/InformationPosteView.vue')
   },
   {
@@ -33,8 +18,13 @@ const routes = [
     component: () => import('../views/RemunerationView.vue')
   },
   {
-    path: '/profil_profesionnel',
-    name: 'Profil Professionnel',
+    path: '/documents',
+    name: 'Docuemnts',
+    component: () => import('../views/DocumentsView.vue')
+  },
+  {
+    path: '/profil_carriere',
+    name: 'Profil Carriere',
     component: () => import('../views/ProfilProfessionnelView.vue')
   }
 ]

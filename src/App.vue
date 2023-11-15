@@ -80,6 +80,7 @@ nav a {
   color: #000000;
   padding: 10px 25px;
   border-radius: 4px;
+  border: #000 2px solid;
   text-decoration: none;
   display: flex;
   align-items: center;

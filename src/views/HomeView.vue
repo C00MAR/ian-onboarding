@@ -1,10 +1,21 @@
+<script>
+import TitleSection from '@/components/TitleSection.vue';
+export default {
+  name: 'HomeView',
+  components: {
+    TitleSection
+  }
+}
+</script>
+
 <template>
   <div class="infoperso">
-    <h1>
-      Information Perso
-    </h1>
+    <TitleSection title="INFORMATIONS PERSONNELLES"></TitleSection>
   </div>
 </template>
 
-<script>
-</script>
+<style lang="scss">
+.infoperso{
+
+}
+</style>

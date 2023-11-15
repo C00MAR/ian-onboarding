@@ -131,7 +131,6 @@ export default {
             display: flex;
             align-items: baseline;
             gap: 10px;
-            margin-top: -7px;
             h2, p{
                 margin: 0;
                 font-size: 17px;

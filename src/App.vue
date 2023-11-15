@@ -46,6 +46,8 @@ export default {
     </router-link>
   </nav>
   <router-view/>
+  <button class="TTS">
+  </button>
 </template>
 
 <style lang="scss">
@@ -53,7 +55,19 @@ body{
   padding: 0;
   margin: 0;
 }
-
+.TTS{
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 150px;
+  border: 0;
+  cursor: pointer;
+  background-image: url('../src/assets/TextToSpeechNot.png');
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

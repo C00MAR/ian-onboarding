@@ -11,9 +11,8 @@ export default {
 </script>
 
 <template>
-
-    <HeaderPart></HeaderPart>
-    <ProfilePart></ProfilePart>
+  <HeaderPart></HeaderPart>
+  <ProfilePart></ProfilePart>
     <nav>
     <router-link to="/">
       <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,6 +95,52 @@ nav a.router-link-exact-active {
   background-color: #000;
   svg{
     filter: invert(1);
+  }
+}
+
+::placeholder {
+  color: #000;
+  opacity: 1;  
+}
+
+.blockform{
+  background-color: #D9D9D9;
+  border-radius: 4px;
+  padding: 32px 32px 90px 32px;
+  width: 66%;
+  margin-left: 52px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 50px;
+  .titleform{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    div, .lastCo{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      input, select{
+        background-color: #ffffff;
+        border-radius: 4px;
+        width: 350px;
+        border: 0;
+        height: 40px;
+        padding: 0 0 0 15px;
+        min-width: 350px;
+        color: #000;
+      }
+      select{
+        width: 363px;
+      }
+    }
   }
 }
 </style>

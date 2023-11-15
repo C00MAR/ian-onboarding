@@ -10,7 +10,7 @@ export default {
 
 <template>
   <div class="remu">
-    <TitleSection title="RÉMUNÉRATION"></TitleSection>
+    <TitleSection title="INFORMATIONS SUR LA Rémunération"></TitleSection>
   </div>
 </template>
 

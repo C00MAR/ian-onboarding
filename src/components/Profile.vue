@@ -79,6 +79,9 @@ export default {
         display: flex;
         align-items: center;
         gap: 8px;
+        p{
+            font-weight: bold;
+        }
     }
     button{
         height: 30px;

@@ -29,7 +29,12 @@ export default {
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+
+::placeholder {
+    color: #fff;
+    opacity: 1;      
+}
 .header{
     display: flex;
     justify-content: space-between;
